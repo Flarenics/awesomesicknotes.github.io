@@ -1,0 +1,62 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #22223B;
+    color: #E3E4DB;
+  }
+
+#color1 {
+  color: red;
+}
+
+#color2 {
+  color: orange;
+}
+
+#color3 {
+  color: yellow;
+}
+
+#color4 {
+  color: rgb(0, 196, 0);
+}
+
+#color5 {
+  color: rgb(106, 109, 255);
+}
+
+#color6 {
+  color: rgb(143, 42, 156);
+}
+
+#color7 {
+  color: rgb(255, 191, 239);
+}
+
+#funnyFlex {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  justify-content: end;
+  position: sticky;
+  top: 0;
+  bottom: 0;
+
+  font-weight: 600;
+  font-size: 15px;
+}
+
+ul {
+  font-weight: 600;
+}
+
+#textList {
+  display: flex;
+  flex-direction: column;
+}
+
+#flexPara {
+  font-weight: 600;
+  font-size: 17px;
+  width: 650px;
+}
